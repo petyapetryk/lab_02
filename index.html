@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиці</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="table">
+        <thead> <tr>
+            <th>№</th>
+            <th>Ім'я</th>
+            <th>E-mail</th>
+            <th>Стать</th>
+            <th>Дата</th>
+        </tr></thead>
+        <tbody><tr>
+            <td>1</td>
+            <td>Дмитро</td>
+            <td>dima@gmail.com</td>
+            <td>Ч</td>
+            <td>01.02.2023</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Петро</td>
+            <td>petro@gmail.com</td>
+            <td>Ч</td>
+            <td>01.02.2023</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Святослав</td>
+            <td>sviat@gmail.com</td>
+            <td>Ч</td>
+            <td>01.02.2023</td>
+        </tr></tbody>
+        <tfoot><tr>
+            <td colspan="5">Всього: 3</td>
+        </tr></tfoot>
+    </table>
+    <hr>
+    <table class="table_2">
+        <caption><b>Розклад занять</caption>
+        <colgroup>
+            <col span="3" style="background-color: #d9e1f2;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2">День тижня</th>
+                <th rowspan="2">Пара</th>
+                <th rowspan="2">Тиждень</th>
+                <th class="td row">Радчик Г.І.</th>
+                <th class=" row" rowspan="2">Ауд.(I)</th>
+                <th class=" row" rowspan="2">Ауд.(II)</th>
+            </tr>
+            <tr>
+                <th class=" row">КІ-406</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td class="day" rowspan="10">Вівторок</td>
+                    <td class="lesson" rowspan="2">3</td>
+                    <td class="td lesson">I</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="td_2 lesson">II</td>
+                </tr>
+                <tr>
+                    <td class="lesson" rowspan="2">4</td>
+                    <td class="td lesson">I</td>
+                    <td class="td">ООП</td>   
+                    <td class="td"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="td_2 lesson">II</td>
+                    <td class="td_3">Слободян</td>
+                    <td class="td_3">101</td>
+                </tr>
+                <tr>
+                    <td class="lesson" rowspan="2">5</td>
+                    <td class="td lesson">I</td>
+                    <td class="td">Інтернет</td>
+                    <td class="td"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="td_2 lesson">II</td>
+                    <td class="td_3">Капаціла</td>
+                    <td class="td_3">315</td>
+                </tr>
+                <tr>
+                    <td class="lesson" rowspan="2">6</td>
+                    <td class="td lesson">I</td>
+                    <td class="td">Основи програмної інженерії</td>
+                    <td class="td"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="td_2 lesson">II</td>
+                    <td class="td_3">Радчик</td>
+                    <td class="td_3">104</td>
+                </tr>
+                <tr>
+                    <td class="lesson" rowspan="2">7</td>
+                    <td class="td lesson">I</td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                    <td rowspan="2"></td>
+                </tr>
+                <tr>
+                    <td class="td_2 lesson">II</td>
+                </tr>
+            </tbody>      
+    </table>
+</body>
+</html>

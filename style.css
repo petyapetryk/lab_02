@@ -1,0 +1,51 @@
+.table{
+    border: 1px solid #6395ff;
+    width: 500px;
+    border-spacing: 0;
+}
+.table thead{
+   background-color: #dae1f8;
+}
+.table tfoot{
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
+.table th, .table td{
+    border: 1px solid #6395ff;
+    padding: 5px 10px;
+}
+.table_2{
+    border: 1px solid rgb(0, 0, 0);
+    width:600px;
+    border-spacing: 0;
+}
+.table_2 th, .table_2 td{
+    border: 1px solid rgb(0, 0, 0);
+}
+.table_2 caption{
+    font-size: 25px;
+}
+.td{
+    border-bottom-style: none !important;
+}
+.td_2{
+    border-top-style: dotted !important;
+}
+.td_3{
+    border-top-style: none !important;
+}
+.lesson{
+    text-align: center;
+    font-weight: 900;
+}
+.day{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+}
+.row{
+    background-color: #e2efda;
+}
